@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='dj-json-env',
-    version='0.1.1',
+    version='0.1.2',
     url='https://github.com/vijayendra/dj-json-env',
     license='MIT',
     author='Vijayendra Bapte',

@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import json
 import sys
 from optparse import OptionParser
@@ -10,8 +11,6 @@ def parse_args():
     return options
 
 def export(module_path):
-    module_path = module_path.strip(".py")
-    module_path = module_path.replace(r'/', '.')
     local_settings = __import__(module_path)
     print "'%s'" % json.dumps(local_settings.SETTINGS)
 

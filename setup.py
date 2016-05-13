@@ -9,6 +9,7 @@ setup(
     author_email='vijayendra.bapte@gmail.com',
     description='Use env to read local settings for django app',
     py_modules=['dj_json_env'],
+    scripts=["scripts/export_json"],
     zip_safe=False,
     include_package_data=True,
     platforms='any',

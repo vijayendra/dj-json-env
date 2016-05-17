@@ -17,9 +17,9 @@ Installation is simple::
 Usage
 -----
 
-Create a file `local_settings.py`
+Create a file ``local_settings.py``
 
-Setup `LOCAL_SETTINGS` environment variable by usig `export_json` command.
+Setup ``LOCAL_SETTINGS`` environment variable by usig ``export_json`` command.
 
     $ export LOCAL_SETTINGS=`export_json -m "local_settings"`
 

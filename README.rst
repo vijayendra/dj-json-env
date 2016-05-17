@@ -1,6 +1,9 @@
 DJ-JSON-ENV
 ~~~~~~~~~~~
 
+.. image:: https://badge.fury.io/py/dj-json-env.svg
+    :target: https://badge.fury.io/py/dj-json-env
+    
 This is a simple django utility to read local configuration from JSON formated
 string specified in environment variable or local file.
 
@@ -13,6 +16,13 @@ Installation is simple::
 
 Usage
 -----
+
+Create a file `local_settings.py`
+
+Setup `LOCAL_SETTINGS` environment variable by usig `export_json` command.
+
+    $ export LOCAL_SETTINGS=`export_json -m "local_settings"`
+
 
 Configure your variable in ``settings.py`` from ``env.LOCAL_SETTINGS``::
 
